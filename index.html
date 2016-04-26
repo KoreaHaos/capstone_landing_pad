@@ -54,7 +54,7 @@
         var date = new Date();
         console.log("Checking Time! Time = " + date);
         console.log("window_has_opened = " + window_has_opened);
-        if (date.getHours() === 19 && date.getMinutes() >= 31 && !has_window_opened()) {
+        if (date.getHours() >= 19 && date.getMinutes() >= 31 && !has_window_opened()) {
             //alert("Time!!");
             console.log("TIME!");
             var win = window.open('https://koreahaos.github.io/capstone_intro_video_tester/decks/intro_video.html', '_blank');
